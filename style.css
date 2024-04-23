@@ -25,7 +25,6 @@ header .container{
 }
 header {
     background-color: #FFFADD;
-    box-shadow: 0 5px 10px black;
     position: fixed;
     top: 0px;
     left: 0;
@@ -86,18 +85,38 @@ nav a:hover {
 }
 
 
-#main {
-	background-image: url('food.jpg');
-	background-position: center;
-	background-size: cover;
-	height: 600px;
+.main {
+	background-color: #E8DB41;
+	height: 550px;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	margin-top: 95px;
+}
+.flex-box {
+	margin: 0;
+	width: 25%;
 	text-align: center;
-	
 }
 
+#red img{
+	height: 100%;
+	width: 100%;
+	  
+}
+#white img{
+	height: 100%;
+	width: 100%;
+	  
+}
+#rose img{
+	height: 100%;
+	width: 100%;
+	  
+}
+#sparkling img{
+	height: 100%;
+	width: 100%;
+	  
+}
 
 
 #main h2 {
