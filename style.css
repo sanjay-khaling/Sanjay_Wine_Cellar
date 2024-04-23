@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=Handlee&family=Noto+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=Handlee&family=Mulish:wght@200&family=Noto+Sans:wght@400;600&display=swap');
+
+
+* {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFFADD;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+header {
+    background-color: #FFFADD;
+    box-shadow: 0 5px 10px black;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    padding: 15px 0;
+    z-index: 999;
+}
+
+h1{
+    
+    font-family: 'Alkatra', cursive;
+	color: #22668D;
+	font-family: 'Alkatra', cursive;
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Handlee', cursive;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.container #see-more {
+	color:#8ECDDD;
+	text-decoration: none;
+	float: right;
+}
+
+nav {
+	float: right;
+	margin-top: 5px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 20px;
+    font-family: 'Handlee', cursive;
+    
+}
+
+nav a {
+	color: #8ECDDD;
+	text-decoration: none;
+	font-size: 23px;
+	transition: all 0.3s ease;
+}
+
+nav a:hover {
+	color: #777;
+}
+
+
+#main {
+	background-image: url('food.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	
+}
+
+
+
+#main h2 {
+	font-size: 75px;
+	margin-bottom: 20px;
+    color: #8ECDDD;
+    font-family: 'Dancing Script', cursive;
+}
+
+#main p {
+	font-size: 24px;
+	margin-bottom: 30px;
+    font-family: 'Handlee', cursive;
+}
+
+.btn {
+	background-color: #FFCC70;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+
+	text-decoration: none;
+}
+
+.btn:hover {
+	background-color: #ffcd70;
+	cursor: pointer;
+	font-size:18px;
+    transition: all 500ms;
+    font-size-adjust: 18px;
+}
+
+#menu {
+	padding: 60px 0;
+	background-color: #FFFADD;
+	color: #22668D;
+}
+
+#menu h2 {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 20px;
+    font-family: 'Handlee', cursive;
+    
+}
+
+#menu p {
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 50px;
+    font-family: 'Handlee', cursive;
+}
+
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#menu li {
+	margin: 20px;
+	flex-basis: 400px;
+}
+
+#menu img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+#menu h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+#menu p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+#about {
+	padding: 60px 0;
+}
+
+#about h2 {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 20px;
+    font-family: 'Handlee', cursive;
+	color: #22668D;
+}
+
+#about p {
+	font-size: 20px;
+	text-align: justify;
+	margin-bottom: 50px;
+    font-family: 'Handlee', cursive;
+	color: #22668D;
+}
+
+#contact {
+	padding: 60px 0;
+	background-color: #22668D;
+}
+
+#contact h2 {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 20px;
+    font-family: 'Handlee', cursive;
+
+}
+
+form {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+form label {
+	display: block;
+	font-size: 24px;
+	margin-bottom: 10px;
+    font-family: 'Handlee', cursive;
+
+}
+
+form input, form textarea {
+	width: 100%;
+	padding: 10px;
+
+}
+
+.social {
+    font-family: 'Handlee', cursive;
+	background-color: #8ECDDD;
+	color: aqua;
+	padding: 30px;
+	margin: 0;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.social h2 {
+	text-align: center;
+	color: white;
+	text-decoration: solid;
+	font-size: 36px;
+	padding: 16px;
+}
+
+.icons {
+	margin: 0;
+}
+
+.icons link {
+	padding: 3rem;
+	margin: 0;
+}
+
+.social p {
+	font-family: 'Alkatra', cursive;
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Handlee', cursive;
+	font-family: 'Mulish', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
+	color: white;
+	padding-top: 18px;
+}
