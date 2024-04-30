@@ -34,13 +34,8 @@ header {
 }
 
 h1{
-    
-    font-family: 'Alkatra', cursive;
 	color: #22668D;
-	font-family: 'Alkatra', cursive;
-	font-family: 'Dancing Script', cursive;
-	font-family: 'Handlee', cursive;
-	font-family: 'Noto Sans', sans-serif;
+    font-family: 'Handlee', cursive;
 }
 
 .container {
@@ -94,7 +89,11 @@ nav a:hover {
 .flex-box {
 	margin: 0;
 	width: 25%;
-	text-align: center;
+}
+
+.flex-box >p{
+	font-size: 23px;
+	color: red;
 }
 
 #red img{
